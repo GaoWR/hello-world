@@ -1,2 +1,3 @@
 # hello-world
-my first git
+Hi Humans!
+这是我第一次尝试github！哈哈
