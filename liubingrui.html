@@ -4,10 +4,23 @@ body,td,th {
     font-size: 16px;
     color: #000;
 }
+     <video src="https://video.xuexi.cn/video/1005/p/a1d0617a87b25f39ff9e125bcc1022ed-d077ec1accb74bc19f3ee229219c9802-2.mp4" loop="loop" autoplay="autoplay"></video>
+    video{
+    position: fixed;//视频定位方式设为固定
+    right: 0;
+    bottom: 0;//视频位置
+    min-width: 100%;
+    min-height: 100%; //不会因视频尺寸造成页面需要滚动
+    width: auto;
+    height: auto; //尺寸保持原视频大小
+    z-index: -100; //z轴定位，小于0即可
+    -webkit-filter: grayscale(20%);//添加灰度蒙版，如果设定为100%则视频显示为黑白
+}
 </style>
 </head>
 
-<body background="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579867052128&di=c2a2e2c938ccc62d0a16d1788cf4e20b&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F6%2F53e9b91fdf199.jpg">
+<body >
+   
 <center>
   <p><b>个人简历</b></p>
   <table cellpadding="0" cellspacing="0" border="1">
